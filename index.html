@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Imperial Unit Conversion</title>
+</head>
+
+<body>
+    <section class="main">
+        <div class="row">
+            <div class="main-col">
+                <h3 class="main-h3">Metric/Imperial Unit Conversion</h3>
+                <div class="input-num">
+                    <input type="number" value="" placeholder="20" min="1" max="999" id="input-El" />
+                </div>
+                <div class="Convert-Btn">
+                    <input type="button" value="Convert" id="Convert-Btn" />
+                </div>
+            </div>
+            <div class="continer-cards">
+                <div class="cards">
+                    <div>
+                        <h3>Length (Meter/Feet)</h3>
+                    </div>
+                    <div>
+                        <p id="first-el">
+                            20 m = 65.616 ft <span>|</span> 20 ft = 6.096 m
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div>
+                        <h3>Volume (Liters/Gallons)</h3>
+                    </div>
+                    <div>
+                        <p id="second-el">
+                            20 L = 5.283 gal <span>|</span> 20 gal = 75.708 L
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div>
+                        <h3>Mass (Kilograms/Pounds)</h3>
+                    </div>
+                    <div>
+                        <p id="third-el">
+                            20 kg = 44.092 lb <span>|</span> 20 lb = 9.072 kg
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
